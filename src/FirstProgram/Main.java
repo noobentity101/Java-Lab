@@ -1,4 +1,4 @@
-package com.nidhisingh.javaLab;
+package FirstProgram;
 
 public class Main {
 
