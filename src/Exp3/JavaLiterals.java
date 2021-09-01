@@ -1,4 +1,4 @@
-package Exp3;
+package exp3;
 
 public class JavaLiterals {
     public static void main(String[] args) {
