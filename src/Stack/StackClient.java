@@ -30,25 +30,24 @@ public class StackClient
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Stack Test\n");
-        System.out.println("Enter Size of Integer Stack ");
+        System.out.println("--------- Stack Operations ---------\n");
+        System.out.print("Enter the size of stack: ");
         int n = scan.nextInt();
-
 
         Stack s = new Stack(n);
 
+        System.out.println("1. push");
+        System.out.println("2. pop");
+        System.out.println("3. peek");
+
         char ch;
         do{
-            System.out.println("\nStack Operations");
-            System.out.println("1. push");
-            System.out.println("2. pop");
-            System.out.println("3. peek");
-
+            System.out.print("\nEnter choice: ");
             int choice = scan.nextInt();
             switch (choice)
             {
             case 1 :
-                System.out.println("Enter integer element to push");
+                System.out.print("Enter integer element to push: ");
                 try {
                     s.push( scan.nextInt() );
                 }
@@ -81,7 +80,7 @@ public class StackClient
             }
             /* display stack */
             s.display();
-            System.out.println("\nDo you want to continue (Type y or n) \n");
+            System.out.print("\nDo you want to continue (Type y or n): \n");
             ch = scan.next().charAt(0);
 
         } while (ch == 'Y' || ch == 'y');
