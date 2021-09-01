@@ -69,11 +69,15 @@ public class Stack {
 
         System.out.println("----------------");
 
+
+
+        System.out.print("(top) ");
+
         for (int i = tos; i >= 0; i--) {
             System.out.print(data[i] + " ");
         }
 
-        System.out.println(".");
+        System.out.println(" ");
         System.out.println("----------------");
 
     }
