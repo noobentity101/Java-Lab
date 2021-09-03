@@ -1,4 +1,4 @@
-package Stack;
+package Lab.exp2.Stack;
 
 public class Stack {
 

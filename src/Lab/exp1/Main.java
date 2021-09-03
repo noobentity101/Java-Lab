@@ -1,4 +1,4 @@
-package exp1;
+package Lab.exp1;
 
 public class Main {
 
