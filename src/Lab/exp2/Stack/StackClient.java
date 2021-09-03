@@ -1,4 +1,4 @@
-package Stack;
+package Lab.exp2.Stack;
 import java.util.Scanner;
 
 // public class StackClient {

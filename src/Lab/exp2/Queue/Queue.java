@@ -1,4 +1,4 @@
-package Queue;
+package Lab.exp2.Queue;
 
 public class Queue {
 
