@@ -1,18 +1,23 @@
 package classQuestions;
 
-import java.util.Scanner;
-
 public class CommandLine {
 
     public static void main(String[] args) {
 
-        Scanner scn = new Scanner(System.in);
-
         int ans = 0;
 
-        for(int i = 0 ; i < args.length ; i ++){
+        int n1;
+
+        int n2;
+
+        n1 = Integer.parseInt(args[0]);
+
+        n2 = Integer.parseInt(args[1]);
+
+        ans = n1 + n2;
+
+        System.out.println(ans);
 
 
-        }
     }
 }
