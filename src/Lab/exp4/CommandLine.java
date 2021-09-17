@@ -1,4 +1,4 @@
-package classQuestions;
+package Lab.exp4;
 
 public class CommandLine {
 
