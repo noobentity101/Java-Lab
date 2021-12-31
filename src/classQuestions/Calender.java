@@ -9,19 +9,19 @@ public class Calender {
     public static void main(String[] a)
     {
 
-        // Reading input by creating object of Scanner class
+        // Reading InputFile by creating object of Scanner class
         Scanner sc = new Scanner(System.in);
 
         // Display message only
         System.out.print("Enter the year : ");
 
-        // Reading integer input value
+        // Reading integer InputFile value
         int yy = sc.nextInt();
 
         // Display message only
         System.out.print("Enter month : ");
 
-        // Reading integer input value
+        // Reading integer InputFile value
         int mm = sc.nextInt();
 
         int d = 1;
@@ -29,7 +29,7 @@ public class Calender {
         int y = 1;
         int dy = 1;
 
-        // Storing data and months as input
+        // Storing data and months as InputFile
         String[] day = { "SUN  ", "MON  ", "TUE  ", "WED  ",
                 "THU  ", "FRI  ", "SAT  " };
         String[] month
@@ -38,7 +38,7 @@ public class Calender {
                 "JULY", "AUGUST", "SEPTEMBER",
                 "OCTOBER", "NOVEMBER", "DECEMBER" };
 
-        // Custom array as input
+        // Custom array as InputFile
         int ar[] = { 31, 29, 31, 30, 31, 30,
                 31, 31, 30, 31, 30, 31 };
 
@@ -83,7 +83,7 @@ public class Calender {
             ar[1] = 28;
         }
 
-        // Print the desired month of input year
+        // Print the desired month of InputFile year
         System.out.println("MONTH:" + month[mm - 1]);
 
         for (int k = 0; k < 7; k++) {
